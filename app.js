@@ -1,4 +1,4 @@
-var arr = [5, 8, 1, 5, 3, 6];
+var arr = [5, 8, 1, 5, 3, 6, 34, 13, 4, 65, 83, 3, 12, 9];
 
 var vis = new Visualizer($("#container"));
 vis.loadElements(arr);
@@ -55,6 +55,6 @@ function selectSort(arr) {
 
 
 vis.buildRow();
-selectSort(arr);
-// vis.buildBinaryTree();
-// heapSort(arr);
+// selectSort(arr);
+vis.buildBinaryTree();
+heapSort(arr);
